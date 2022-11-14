@@ -1,0 +1,101 @@
+#title{background-color: #ff4c68}
+
+
+.container-fluid{padding: 3% 15% 20%}
+
+.big-heading{
+  font-family: 'impact', sans-serif;
+  font-size: 3.5rem;
+  word-spacing: 10px;
+  letter-spacing: 1px;
+
+}
+h1,hr,h3,h4,h5,h6{font-family: 'impact', sans-serif;}
+
+h2{font-size: 3rem; line-height: 1.5;}
+
+
+
+.navbar-brand{padding-left: 0 ;font-size: 2rem}
+
+.nav-item{padding:1.5rem 1.5rem 0 1.5rem;font-size: 1.3rem}
+
+.download-button{margin: 10px}
+
+.title-image{
+  transform: rotate(25deg);
+  width: 70%;
+  position: absolute;
+  right: 20%}
+
+.feature-box{text-align: center;padding: 5%}
+
+#features{
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+}
+
+
+p{color:#8f8f8f; }
+
+.icon{color:#EF8172; margin-bottom: 1rem}
+.icon:hover{color:#ff4c68}
+
+#testimonials{
+  text-align:center;
+  background-color: #ef8172 ;
+  color: #fff
+}
+
+.carousel-item{padding: 7% 15%;}
+
+.testimonial-image{
+  width: 10%;
+  border-radius:100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.images{
+  width: 12%;
+  margin:20px 20px 50px;
+}
+
+#Pricing{100px;}
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.cta-heading{
+  font-family: 'impact', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+
+}
+
+
+
+
+@media (max-width:1028px) {
+
+  #title{
+    text-align: center;
+  }
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.imojis{align-items: center;}
